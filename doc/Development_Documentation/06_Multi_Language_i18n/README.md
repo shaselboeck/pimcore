@@ -4,7 +4,7 @@ Localization is a very important aspect in every content management. In Pimcore 
 and has influence on multiple aspects within the system. 
 
 Bottom line is that using Pimcore in a multi language mode is pretty easy for users and developers. Pimcore takes care 
-of all technical aspects and by doing so follows the ZF patterns.
+of all technical aspects and by doing so follows the Symfony patterns.
 
 Pimcore has different sets of languages/locales and translations for the back end (CMS) and front end (website). 
 This allows you to have the user interface of Pimcore in different languages than the website. You need to be aware of 
@@ -31,7 +31,7 @@ Following settings can be defined here:
 The activated languages have influence to following modules of content within Pimcore: 
 
 * [Document - Localization (system property for language)](./02_Localize_your_Documents.md)
-* [Shared Translations (Zend_Translate)](./04_Shared_Translations.md)
+* [Shared Translations (Symfony Translator)](./04_Shared_Translations.md)
 * [Localized Fields for Objects (object localization)](../05_Objects/01_Object_Classes/01_Data_Types/23_Localized_Fields.md)
 * [Structured Data Fields - Classification Store](../05_Objects/01_Object_Classes/01_Data_Types/13_Classification_Store.md)
 
